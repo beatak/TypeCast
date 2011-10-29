@@ -2,7 +2,7 @@
   "author": "Takashi Mizohata <beatak@gmail.com> (http://beatak.github.com/)",
   "name": "TypeCast",
   "description": "more intuitive type cast functions for JavaScript",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/beatak/TypeCast/",
   "repository": {
     "type": "git",
