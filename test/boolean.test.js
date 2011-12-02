@@ -1,5 +1,4 @@
-// express drops path info? that's silly to me...
-var cast = require('TypeCast'),
+var cast = require('../lib/typecast.js'),
 assert = require('assert');
 
 module.exports = {
