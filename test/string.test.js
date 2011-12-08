@@ -29,6 +29,9 @@ module.exports = {
   ,'test string:object string constructor' : function () {
     assert.equal('a', cast.string(new String('a')));
   }
+  ,'test string:object valueOf returns string' : function () {
+    assert.equal('foo', cast.string({'valueOf': function(){return 'foo';}}));
+  }
   ,'test string:object generic' : function () {
     assert.equal('[object Object]', cast.string({}));
   }

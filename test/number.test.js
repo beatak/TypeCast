@@ -29,6 +29,9 @@ module.exports = {
   ,'test number:string number contains with raddix' : function () {
     assert.equal(10, cast.number('a', 16));
   }
+  ,'test number:string number default raddix 10' : function () {
+    assert.equal(10, cast.number('010'));
+  }
   ,'test number:string not number' : function () {
     assert.equal(0, cast.number('a'));
   }
