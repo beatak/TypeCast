@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/beatak/TypeCast.png)](http://travis-ci.org/beatak/TypeCast)
 TypeCast.js
 ===========
 
